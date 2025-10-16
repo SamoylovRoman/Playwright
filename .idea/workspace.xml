@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1a8c72-8af6-4cc0-a9b6-5ac583367f06" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/tests/test_titles.py" afterDir="false" />
+    <list default="true" id="bf1a8c72-8af6-4cc0-a9b6-5ac583367f06" name="Changes" comment="Playwright Tests Checking pages titles">
+      <change afterPath="$PROJECT_DIR$/tests/test_locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sync_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/sync_example.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_locators.test_locator_role.executor": "Run",
     "Python tests.Python tests for test_titles.test_main_page_title.executor": "Run",
     "Python tests.Python tests for test_titles.test_pamyatniki_page.executor": "Run",
     "Python tests.Python tests in test_titles.py.executor": "Run",
@@ -58,7 +60,7 @@
     "last_opened_file_path": "C:/Users/user/Desktop/PlaywrightDemo/PlaywrightDemo/tests/test_titles.py"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_titles.test_pamyatniki_page">
+  <component name="RunManager" selected="Python tests.Python tests for test_locators.test_locator_role">
     <configuration name="test_titles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PlaywrightDemo" />
       <option name="ENV_FILES" value="" />
@@ -79,6 +81,21 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_locators.test_locator_role" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_locators.test_locator_role&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_titles.test_main_page_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -113,11 +130,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_titles" />
+      <item itemvalue="Python tests.Python tests for test_locators.test_locator_role" />
       <item itemvalue="Python tests.Python tests for test_titles.test_main_page_title" />
       <item itemvalue="Python tests.Python tests for test_titles.test_pamyatniki_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_locators.test_locator_role" />
         <item itemvalue="Python tests.Python tests for test_titles.test_pamyatniki_page" />
         <item itemvalue="Python tests.Python tests for test_titles.test_main_page_title" />
       </list>
@@ -147,12 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760597258642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Playwright Tests Checking pages titles">
+      <option name="closed" value="true" />
+      <created>1760600648892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760600648892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Playwright Tests Checking pages titles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playwright Tests Checking pages titles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
