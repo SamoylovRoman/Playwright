@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1a8c72-8af6-4cc0-a9b6-5ac583367f06" name="Changes" comment="Playwright Tests Locators">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="bf1a8c72-8af6-4cc0-a9b6-5ac583367f06" name="Changes" comment="Playwright Tests fixtures">
+      <change afterPath="$PROJECT_DIR$/tests/test_actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_titles.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_titles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SamoylovRoman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamoylovRoman&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SamoylovRoman/Playwright.git",
-    "accountId": "f629ce61-79d8-4f75-958e-bdbfa9cef697"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamoylovRoman/Playwright.git&quot;,
+    &quot;accountId&quot;: &quot;f629ce61-79d8-4f75-958e-bdbfa9cef697&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -46,22 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_locators.test_locator_role.executor": "Run",
-    "Python tests.Python tests for test_titles.test_main_page_title.executor": "Run",
-    "Python tests.Python tests for test_titles.test_pamyatniki_page.executor": "Run",
-    "Python tests.Python tests in test_titles.py.executor": "Run",
-    "Python.async_example.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.sync_example.executor": "Run",
-    "Python.test_titles.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/Desktop/PlaywrightDemo/PlaywrightDemo/tests/test_titles.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_actions.test_main_actions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_locators.test_locator_role.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_titles.test_main_page_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_titles.test_pamyatniki_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_titles.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.async_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sync_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_titles.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/PlaywrightDemo/PlaywrightDemo/tests/test_titles.py&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_locators.test_locator_role">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_actions.test_main_actions">
     <configuration name="test_titles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PlaywrightDemo" />
       <option name="ENV_FILES" value="" />
@@ -82,6 +81,21 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_actions.test_main_actions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PlaywrightDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_actions.test_main_actions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_locators.test_locator_role" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -131,12 +145,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_titles" />
+      <item itemvalue="Python tests.Python tests for test_actions.test_main_actions" />
       <item itemvalue="Python tests.Python tests for test_locators.test_locator_role" />
       <item itemvalue="Python tests.Python tests for test_titles.test_main_page_title" />
       <item itemvalue="Python tests.Python tests for test_titles.test_pamyatniki_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_actions.test_main_actions" />
         <item itemvalue="Python tests.Python tests for test_locators.test_locator_role" />
         <item itemvalue="Python tests.Python tests for test_titles.test_pamyatniki_page" />
         <item itemvalue="Python tests.Python tests for test_titles.test_main_page_title" />
@@ -183,14 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760623315092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Playwright Tests fixtures">
+      <option name="closed" value="true" />
+      <created>1760629023504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760629023504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Playwright Tests Checking pages titles" />
     <MESSAGE value="Playwright Tests Locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Playwright Tests Locators" />
+    <MESSAGE value="Playwright Tests fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Playwright Tests fixtures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
